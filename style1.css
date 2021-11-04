@@ -1,0 +1,79 @@
+
+/* csss styles for page1 */
+
+body{
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 600px;
+}
+h2{
+    color: orange;
+}
+.head3{
+    color: red;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+#icon{
+    color: orangered;
+    margin-left: 200px;
+    margin-top: 120px  
+}
+.box1{
+    border: 2px solid orange;
+    margin: 20px;
+    border-radius: 20px;
+    width: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: 90px;
+    box-shadow: 6px 6px 15px rgb(82, 78, 78)
+
+}
+hr{
+    margin-left: 40px;
+}
+#back{
+    font-size: 35px;
+    margin-left: 680px;
+    text-decoration: none;
+    color:rgb(131, 130, 130);
+    font-weight:100;
+}
+#icon2{
+        color: orangered;
+}
+#hr1{
+    margin-top: -60px;
+    margin-left: 250px;
+    width: 300px;
+}
+#hr2{
+    margin-top: -9.5px;
+    margin-left: 950px;
+    width: 300px;
+}
+
+@media(max-width:440px){
+    body{
+        margin: 0px;
+    }
+    h1{
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .box1{
+        margin-left: 20%;
+    }
+    #back{
+        margin-left: 40%;
+    }
+}
