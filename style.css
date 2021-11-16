@@ -100,15 +100,13 @@ hr{
         margin-top: 20px;
         width: 50%;
     }
-    p{
+    .head3{
         visibility: hidden;
     }
-    input{
+    #task{
         visibility: hidden;
     }
-    label{
-        visibility: hidden;
-    }
+
     hr{
         visibility: hidden;
     }
@@ -118,7 +116,7 @@ hr{
         left: 70%;
         margin-left: 0px;
     }
-    span{
+    .addlist{
         visibility: hidden;
     }
     .container{
