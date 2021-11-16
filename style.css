@@ -4,8 +4,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    display: flex;
-    justify-content:space-evenly;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
 }
 .head{
     font-size: 35px;
@@ -13,9 +17,17 @@ body{
 }
 #listicon{
     font-size: 35px;
-    margin-left: 700px;
+    position: relative;
+    left: 1000px;
     color: black;
     text-decoration: none;
+}
+.addlist{
+    position: absolute;
+    left: 1150px;
+    top: 150px;
+    font-size: x-large;
+    font-weight: bold;
 }
 .box{
     border: 1px solid black;
@@ -88,11 +100,26 @@ hr{
         margin-top: 20px;
         width: 50%;
     }
+    p{
+        visibility: hidden;
+    }
+    input{
+        visibility: hidden;
+    }
+    label{
+        visibility: hidden;
+    }
+    hr{
+        visibility: hidden;
+    }
     #listicon{
         position: absolute;
         top: 20px;
         left: 70%;
         margin-left: 0px;
+    }
+    span{
+        visibility: hidden;
     }
     .container{
         width: 90%;
@@ -102,7 +129,7 @@ hr{
         width: 90%;
         padding-bottom: 0px;
         font-size: large;
-        font-weight: lighter;
+        height: 90px;
     }
     .newitem{
         width: 300px;
